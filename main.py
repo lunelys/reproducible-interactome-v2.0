@@ -19,7 +19,7 @@ import removing_redundancies
 
 # ========================== THE CODE SHOULD ONLY BE MODIFIED AT THIS LOCATION =======================================
 
-taxids = ['4932', '559292', '580240']  # taxids = ['559292'] if you want only for one species or several. '*' if you want all species
+taxids = ['4932', '559292', '580240']  # taxids = ['559292'] if you want only for one species or several. ['*'] if you want all species
 query = None  # query = 'NAM7' if you want only for one protein. None if you want everything
 # max_result must be < 10000 if you want to download a specific number of interactions
 max_result = None  # None = download everything
